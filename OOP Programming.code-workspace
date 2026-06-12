@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"folder-color.pathColors": []
+		"folder-color.pathColors": [],
+		"github.copilot.chat.alternateGptPrompt.enabled": true,
+		"github.copilot.chat.gpt55LargePromptSections.enabled": true,
+		"chatgpt-helper.model": "gpt-4",
+		"github.copilot.chat.responsesApi.promptCacheKey.enabled": true
 	}
 }
