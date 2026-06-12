@@ -1,0 +1,102 @@
+# Python bytecode
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# C extensions
+
+*.so
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# Distribution / packaging
+
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Testing
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Type checkers
+
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Logs
+
+*.log
+logs/
+
+# Local databases
+
+*.sqlite
+*.sqlite3
+
+# IDEs
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+
+tmp/
+temp/
+*.tmp
+
+# Secrets
+
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# uv
+
+.python-version
+
+# Keep lock file for reproducible builds
+
+!uv.lock
