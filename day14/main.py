@@ -24,6 +24,7 @@ table.add_rows([
 
 # Title
 table.title = "EMPLOYEE MANAGEMENT REPORT"
+table.align['title'] = 'l'
 
 # Alignment
 table.align["Employee"] = "l"
@@ -45,10 +46,12 @@ table.max_width["Employee"] = 20
 table.header = True
 table.header_style = "upper"
 
+
 # Borders / rules - latest PrettyTable style
 table.border = True
 table.hrules = HRuleStyle.ALL
-table.vrules = VRuleStyle.FRAME
+table.vrules = VRuleStyle.ALL
+table.align = 'l'
 
 # Sorting
 table.sortby = "Salary"
